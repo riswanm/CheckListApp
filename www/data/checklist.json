@@ -1,0 +1,20 @@
+[
+    { "title": "Thajjath Prayer", "id": 1, "checked":false  },
+     { "title": "Quaran Recitation", "id": 2, "checked":false  },
+    { "title": "Sunnah Prayer Before Fajr", "id": 3, "checked":false },
+    { "title": "Fajr Prayer (on time)", "id": 4, "checked":false },
+    { "title": "Morning Dikr", "id": 5, "checked":false },
+    { "title": "Morning Mahsoorath", "id": 6, "checked":false },
+    { "title": "Luha Prayer", "id": 7, "checked":false },
+    { "title": "Sunnah Prayer Before Luhar", "id": 8, "checked":false },
+    { "title": "Luhar Prayer (on time)", "id": 9, "checked":false },
+     { "title": "Sunnah Prayer After Luhar", "id": 10, "checked":false },
+    { "title": "Asr Prayer (on time)", "id": 11, "checked":false },
+    { "title": "Mahrib Prayer (on time)", "id": 12, "checked":false },
+    { "title": "Sunnah Prayer After Mahrib", "id": 13, "checked":false },
+    { "title": "Evening Dhikr", "id": 14, "checked":false },
+     { "title": "Evening Mahsoorath", "id": 15, "checked":false },
+      { "title": "Isha Prayer (on time)", "id": 16, "checked":false },
+     { "title": "Sunnah Prayer After Isha", "id": 17, "checked":false },
+     { "title": "Vithr Prayer", "id": 18, "checked":false }
+  ]

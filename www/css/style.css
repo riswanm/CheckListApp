@@ -1,0 +1,25 @@
+/* Empty. Add your own CSS if you like */
+.popover {
+    height: auto !important;
+}
+.popover ion-header-bar {
+    position: relative;
+}
+.popover ion-content {
+    top: 0;
+    position: relative;
+}
+
+.item-input input[type='date']{
+    text-align: center;
+    font-weight: bold;
+}
+
+.reportcol{
+    font-size: larger;
+    text-align: center;
+    background-color: #34C337;
+    margin: 2px;
+    color: white;
+    font-family: 'Helvetica Neue', Roboto, 'Segoe UI', sans-serif
+}

@@ -1,0 +1,40 @@
+<ion-view view-title="Daily Prayer Check List">
+  <ion-content>
+    <ion-list>
+      <ion-checkbox ng-repeat="playlist in playlists" ng-checked="playlist.checked" ng-model="playlist.checked" class="checkbox-balanced">
+        {{playlist.title}}
+      </ion-checkbox>
+    </ion-list>
+
+  </ion-content>
+
+      <ion-footer-bar align-title="left"  ng-class="taskCompleteStyle()">
+        
+  <h1 class="title">{{completedTasks}} of {{totalTasks}} Completed</h1>
+   <div class="buttons">
+    <button class="button button-dark" ng-click="openDateSelection($event)">{{getDateText()}}</button>
+  </div>
+</ion-footer-bar>
+
+
+    <script id="dateSelectPopover.html" type="text/ng-template">
+<ion-popover-view>
+	<ion-header-bar class="bar-balanced bar-small"> 
+	<h1 class="title">Select a Date</h1> 
+	</ion-header-bar> 
+	<ion-content> 
+		<div class="list">
+  <label class="item item-input">
+     <input type="date" name="input" ng-model="model.dateTobeSelected"
+       placeholder="yyyy-MM-dd" min="2013-01-01" max="2017-12-31"  />
+  </label>
+  
+  <label class="item">
+          <button class="button button-block button-balanced button-small" ng-click="changeDate()">Done</button>
+        </label>
+</div>
+</ion-content>
+	</ion-popover-view>
+
+</script>
+</ion-view>
